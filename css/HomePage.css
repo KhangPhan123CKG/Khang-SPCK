@@ -1,0 +1,440 @@
+/* header */
+.header {
+    height: 50px;
+    background-color: black;
+}
+/* button INSTAGRAM */
+.content-hd-ig {
+    margin: 0 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.nav-item{
+    max-width: 200px;
+}
+
+.content-hd-ig:hover {
+    color: rgb(190, 36, 177);
+}
+
+.icon-ig {
+    vertical-align: -.1em;
+    margin-right: 10px;
+}
+
+/* button FACEBOOK */
+.content-hd-fb {
+    margin: 0 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.content-hd-fb:hover {
+    color: rgb(35, 45, 218);
+}
+
+.icon-fb {
+    vertical-align: -.1em;
+    margin-right: 10px;
+}
+
+/* button TIKTOK */
+.icon-tiktok {
+    vertical-align: -.1em;
+    margin-right: 10px;
+}
+
+.content-hd-tiktok {
+    margin: 0 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.content-hd-tiktok:hover {
+    color: rgb(121, 37, 238);
+}
+
+/* button MESSENGER */
+.content-hd-messenger {
+    margin: 0 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.content-hd-messenger:hover {
+    color: rgb(168, 119, 238);
+}
+
+.icon-messenger {
+    vertical-align: -.1em;
+    margin-right: 10px;
+}
+
+/* button YOUTUBE */
+.content-hd-youtube {
+    margin: 0 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.content-hd-youtube:hover {
+    color: rgb(228, 22, 22);
+}
+
+.icon-youtube {
+    vertical-align: -.1em;
+    margin-right: 10px;
+}
+
+/* button ZALO */
+.content-hd-zalo {
+    margin: 0 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.content-hd-zalo:hover {
+    color: rgb(23, 239, 239);
+}
+
+.icon-zalo {
+    vertical-align: -.1em;
+    margin-right: 10px;
+}
+
+
+/* button GUEST */
+.content-hd-guest {
+    margin-left: 420px;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.content-hd-guest:hover {
+    color: rgb(243, 212, 212);
+}
+
+.icon-guest {
+    vertical-align: -.1em;
+    margin-left: 20px;
+    margin-bottom: -15px;
+}
+
+/* button CART */
+.btn-cart:hover {
+    color: red;
+    background-color: white;
+}
+
+.icon-cart {
+    vertical-align: -.1em;
+    margin-left: 10px;
+}
+
+.btn-cart {
+    width: 200px;
+    height: 50px;
+    font-weight: bolder;
+    margin-left: 100px;
+    margin-top: 45px;     
+}
+
+/* Searching space */
+.search {
+    background-color: crimson;
+    height: 150px;
+}
+
+.shoplogo {
+    width: 135px;
+    height: 135px;
+    border-radius: 9999999px;
+    margin-left: 150px;
+    margin-top: 7px;
+}
+
+.btn-search {
+    color: black;
+    background-color: darkseagreen;
+}
+
+.search-form {
+    width: 400px;
+    height: 50px;
+    border-color: black;
+}
+
+.searchbar {
+    margin-top: 40px;
+}
+
+/* navbar */
+.navbar-item {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    height: 50px;
+    transition-duration: 0.2s;
+    font-weight: bolder;
+}
+
+.navbar-item:hover{
+    background-color: crimson;
+}
+
+.item{
+    width: 100%;
+}
+
+p{
+    margin: 0;
+}
+
+.row{
+    margin: 0;
+}
+
+.carousel-pic{
+    height: 432px;
+}
+
+.product {
+    height: 500px;
+}
+
+.label1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: larger;
+}
+
+.line1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 100px;
+    height: 1px;
+    background: rgba(207, 57, 42, 1);
+}
+
+.product-name {
+    color: black;
+}
+
+.product-name:hover {
+    color: red;
+}
+
+.product-card {
+    height: 570px;
+}
+
+.label2 {
+    margin-top: 100px;
+}
+
+.line2{
+    margin-top: 20px;
+    width: 200px;
+    height: 1px;
+    background: rgba(207, 57, 42, 1);
+}
+
+.dropdown-btn1 {
+    margin-top: 20px;
+    margin-right: 100px;
+    background-color: transparent;
+}
+
+.line3 {
+    margin-top: 20px;
+    width: 200px;
+    height: 1px;
+    background: rgb(180, 180, 180);
+}
+
+.dropdown-btn:hover {
+    color: red;
+}
+
+.btn-buy {
+    margin-top: 20px;
+}
+
+.btn-buy:hover {
+    background-color: black;
+}
+
+.btn-add-to-cart {
+    margin-top: 10px;
+    background-color: red;
+    border: red;
+}
+
+.btn-add-to-cart:hover {
+    background-color: black;
+}
+
+.line4 {
+    margin-left: -15px;
+    margin-top: 15px;
+    width: 285px;
+    height: 1px;
+    background: rgb(180, 180, 180);
+}
+
+.btn-order-zalo {
+    border: none;
+    background-color: transparent;
+}
+
+.btn-order-zalo:hover {
+    color: red;
+}
+
+.btn-order-messenger {
+    border: none;
+    background-color: transparent;
+}
+
+.btn-order-messenger:hover {
+    color: red;
+}
+
+.product-price {
+    font-weight: bolder;
+    color: red;
+}
+
+.label3 {
+    text-align: center;
+    font-size: larger;
+}
+
+.pic1 {
+    transition: transform 0.3s ease;
+}
+
+.pic1:hover {
+    transform: scale(1.1);
+}
+
+.post {
+    margin-top: 20px;
+}
+
+.post-title {
+    color: black;
+}
+
+.post-title:hover {
+    color: red;
+}
+
+.page-footer {
+    height: 300px;
+    background-color: rgb(182, 182, 182);
+    margin-top: 20px;
+}
+
+.shop-address-title {
+    color: red;
+}
+
+.shop-contact-title {
+    color: red;
+}
+
+.purchasing-policy-title {
+    color: red;
+}
+
+.shop-address {
+    margin-top: 40px;
+}
+
+.shop-address-content {
+    font-weight: 400;
+    color: red;
+    text-decoration: none;
+}
+
+.shop-address-content:hover {
+    font-weight: bolder;
+}
+
+.shop-contact {
+    margin-top: 40px;
+}
+
+.shop-contact-content {
+    font-weight: 400;
+    color: red;
+    text-decoration: none;
+}
+
+.shop-contact-content:hover {
+    font-weight: bolder;
+}
+
+.purchasing-policy {
+    margin-top: 40px;
+}
+
+.purchasing-policy-content {
+    font-weight: 400;
+    color: red;
+    text-decoration: none;
+}
+
+.purchasing-policy-content:hover {
+    font-weight: bolder;
+}
+
+.house-icon {
+    vertical-align: -.1em;
+    margin-right: 10px;
+}
+
+.icon-clock {
+    vertical-align: -.1em;
+    margin-right: 10px;
+}
+
+.icon-email {
+    vertical-align: -.1em;
+    margin-right: 10px;
+}
+
+.icon-phone {
+    vertical-align: -.1em;
+    margin-right: 10px;
+}
+
+.icon-truck {
+    vertical-align: -.1em;
+    margin-right: 10px;
+}
+
+.icon-shield {
+    vertical-align: -.1em;
+    margin-right: 10px;
+}
+
+.icon-arrow {
+    vertical-align: -.1em;
+    margin-right: 10px;
+}
+
+.icon-file {
+    vertical-align: -.1em;
+    margin-right: 10px;
+}

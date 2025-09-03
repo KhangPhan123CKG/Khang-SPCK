@@ -1,0 +1,78 @@
+.login {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(240, 248, 255, 0.86);
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 30px;
+    width: 25%;
+    height: 650px;
+    border-radius: 15px;
+}
+
+.logo {
+    border-radius: 999999px;
+    height: 220px;
+    width: 220px;
+}
+
+.btn {
+    width: 100%;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+}
+
+body {
+    background-image: url(https://t3.ftcdn.net/jpg/08/70/24/56/360_F_870245686_ueS6CnvpfoR8Sj31ri8i8rP118uOaxx7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon-fb {
+    vertical-align: -.1em;
+    margin-right: 10px;
+}
+
+.icon-gg {
+    vertical-align: -.1em;
+    margin-right: 10px;
+}
+
+
+.btn-login-facebook {
+    border-radius: 999999px;
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+}
+
+.btn-login-google {
+    border-radius: 999999px;
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+}
+
+.btn-space {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-login-facebook:hover {
+    background-color: azure;
+}
+
+.btn-login-google:hover {
+    background-color: azure;
+}
+
+.btn-create-an-account {
+    margin-top: 20px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
