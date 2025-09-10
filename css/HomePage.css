@@ -117,7 +117,17 @@
     font-size: 1.5rem;
     font-weight: bolder;
 }
+.logoutBtn {
+    background-color: black;
+    border: none;
+    color: white;
+    margin-left: 20px;
+    margin-top: 1px;
+}
 
+.logoutBtn:hover {
+    color: red;
+}
 .content-hd-guest:hover {
     color: rgb(243, 212, 212);
 }

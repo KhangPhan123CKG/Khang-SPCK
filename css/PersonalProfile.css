@@ -49,13 +49,13 @@ body {
     height: 40vw;
     max-height: 180px;
     max-width: 180px;
-    top: 330px;
+    top: 380px;
   }
 
   .name {
     font-size: 35px;
     left: 220px;
-    top: 420px;
+    top: 500px;
 
   }
 
@@ -63,7 +63,8 @@ body {
     margin: 0;
   }
   .background-pic {
-    height: 400px;
+    height: 500px;
+    width: 900px;
     margin: 0;
   }
   .grid {

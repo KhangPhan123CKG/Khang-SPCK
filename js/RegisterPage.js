@@ -15,6 +15,7 @@ registerBtn.addEventListener("click", function(event) {
     let email = eMail.value;
     let password = passWord.value;
     let username = userName.value;
+    let gender = selected.value;
 
     if (email === "" || password === "" || username === "") {
         alert("Please fill in all fields.");
@@ -32,14 +33,15 @@ registerBtn.addEventListener("click", function(event) {
         if (localStorage.getItem("users")) {
             let users = JSON.parse(localStorage.getItem("users"));
 
-            users.push({ username: username, email: email, password: password });
+            users.push({ username: username, email: email, password: password, gender: gender});
             localStorage.setItem("users", JSON.stringify(users));   
             
         } else {
-            localStorage.setItem("users", JSON.stringify([{ username: username, email: email, password: password }]));
+            localStorage.setItem("users", JSON.stringify([{ username: username, email: email, password: password, gender: gender}]));
         }
         alert("Registration successful!");
         location.href = "../html/LoginPage.html";
     }
-
 });
+
+
